@@ -10,7 +10,7 @@ function setTime() {
   const date = now.toLocaleDateString('fi-FI', dateOptions);
 
   const datetime = `<p>Tänään on ${date}</p>`;
-  const clock = '<canvas id="analogClock" width="102" height="102" style="margin: 10px">Clock</canvas>'
+  const clock = '<canvas id="analogClock" width="204" height="204" style="margin: 10px">Clock</canvas>'
 
   document.getElementById("datetime").innerHTML = datetime + clock;
 }
@@ -27,7 +27,7 @@ setTime();
  * @param canvas The canvas to use
  * @param clockWidth The width of the clock (radius*2)
  */
-setupAnalogClock(document.getElementById("analogClock"), 100);
+setupAnalogClock(document.getElementById("analogClock"), 200);
 function setupAnalogClock(canvas, clockWidth) {
   //		var canvas = document.getElementById("analogClock");
   var ctx = canvas.getContext("2d");
