@@ -22,7 +22,11 @@ main {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #808080;
   opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 40px ), repeating-linear-gradient( #FAF0E655, #FAF0E6 );
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 40px ), repeating-linear-gradient( #ffffff, #000000 );
+}
+
+h1 {
+	color: linen;
 }
